@@ -1,0 +1,301 @@
+/*estilizando o site sobre os Beatles da atividade T2_PW1_2BIM*/
+
+*{
+	padding:0;
+	margin:0;
+	}
+	
+	
+.fundo{ 		/*imagem de fundo da página inicial*/
+	margin: 0px;
+	background-size: cover;
+	background-image: url("imgBea/fundo2.webp");
+	background-repeat: no-repeat;
+	}
+
+.fundoH {		/*imagem de fundo da página História*/
+	margin: 0px;
+	background-size: cover;
+	background-image: url("imgBea/fundoH.jpg");
+	background-repeat: no-repeat;
+	}
+
+.fundoA {		/*imagem de fundo da página Músicas*/
+	background-color: #fdfae4;
+	}
+	
+.fundoG{		/*imagem de fundo da página Galeria*/
+	background-color: #fdfae4;
+	}
+	
+				/*imagem de fundo da página Contato*/
+.fundoC {
+	margin: 0px;
+	background-size: cover;
+	background-image: url("imgBea/fundoC.jpg");
+	background-repeat: no-repeat;
+	}
+	
+				/*imagem de fundo da página de aviso*/
+.fundoAv {
+	margin: 0px;
+	background-size: cover;
+	background-image: url("imgBea/fundoG.jpg");
+	background-repeat: no-repeat;
+	}
+	
+	
+.menu {
+	top: 0px;
+	background-color: black;
+	}
+
+
+ul li {		/* Configurando o menu para ficar alinhado horizontalmente e corretamente*/
+	display: inline-block;
+	margin-left: 0,5%;
+    margin-top: 1.7%;
+	padding:5px 25px;
+	text-align: right;
+	}
+
+button {		/* Configurando o estilo e coloração dos botões do menu*/
+	width: 100px;
+	height: 65px;
+	background-color: black;
+	border: dimgray;
+	font-size: 25px;
+	font-family: Times New Roman;
+	letter-spacing:2px;
+	color: white;
+	}
+
+button:hover {	/* Configuração para mudar o estilo do botão quando estiver com o cursor do mouse em cima*/
+	cursor: pointer;
+	color: Yellow;
+	}
+
+.nome {		/* Cofigurando o estilo e posicionamento do nome "The Beatles" na página inicial*/
+	margin-top: 15%;
+	margin-left: 5%;
+	font-family: Times New Roman;
+	font-size: 95px;
+	}
+
+	
+	/*estilizando a página de história*/
+.titulos{
+	margin-top: 5%;
+	margin-left: 7%;
+	font-family: Open Sans;
+	font-size: 50px;
+	}
+	
+.textos{
+	margin-top: 3%;
+	margin-left: 8%;
+	margin-right: 43%;
+	font-family: Open Sans;
+	text-align: justify;
+	}
+
+
+.rodapeH {
+	margin-top: 15%;
+	margin-bottom: 2%;
+	text-align: left;
+	margin-left: 5%;
+	}
+
+	
+	/*estilizando página das músicas*/
+.tituloA {
+	font-family: Open sans;
+	font-size: 60px;
+	text-align: center;
+	margin-top: 3%;
+	margin-bottom: 4%;
+	}
+
+.albuns {
+	margin-left: 15%;
+	margin-top: 4%;
+	padding-right: 80px;
+}
+
+
+td {
+	padding-right:40px;
+	text-align: left;
+	}
+
+		/* adicionando um efeito de crescer ás imagens dos álbuns*/
+.imagens img:hover {
+	-webkit-transform: scale(1.6);
+	-ms-transform: scale(1.6);
+	transform: scale(1.6);
+	transition: all 1s;
+	cursor: grab;
+	}
+	
+
+
+.texto {
+	font-family: Open Sans;
+	font-size: 20px;
+	padding-bottom: 70px; 
+	margin-left:0px;
+	}
+	
+.rodapeA {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 3%;
+	text-align: center;
+	}
+
+.seta  {
+	float: right;
+	margin-right: 1%;
+	margin-top: 1%;
+	}
+	
+	/*estilização da página galeria*/
+.tituloG {
+	margin-top: 3%;
+	font-family: Open Sans;
+	font-size: 50px;
+	margin-left: 22%;
+	}
+
+.textoG {
+	margin-top: 3%;
+	margin-left: 27%;
+	margin-right: 30%;
+	font-family: Open Sans;
+	text-align: justify;
+	}
+	
+
+.maior_show img  {
+	width: 550px;
+	height:400px;
+	margin-left: 30%;
+	margin-top: 3%;
+	}
+	
+	
+.maior_show img:hover{
+	border-radius: 60px;
+	transition: all 1s;
+	cursor: pointer;
+	}
+
+.cavernClub img {
+	width: 550px;
+	height: 400px;
+	margin-left: 30%;
+	margin-top: 3%;
+	}
+	
+.cavernClub img:hover{
+	border-radius: 60px;
+	transition: all 1s;
+	cursor: pointer;
+	}
+	
+.rooftop img {
+	width: 550px;
+	height: 400px;
+	margin-left: 30%;
+	margin-top: 3%;
+	}
+	
+.rooftop img:hover{
+	border-radius: 60px;
+	transition: all 1s;
+	cursor: pointer;
+	}
+
+.rodape {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-align: center;
+	}
+	
+
+		/*estilizando página de contato*/
+.textoContato {
+	margin-top: 3%;
+	margin-left: 19%;
+	font-family: Open Sans;
+	font-size: 40px;
+	color: white;
+		}
+
+.formularios {
+	margin-left: 22%;
+	font-family: Open Sans;
+	font-size: 17px;
+	color: white;
+	}
+	
+form{
+	margin-left: 3%;
+	justify-content: space-between;
+	width: 80%;
+	}
+
+		/*personalizando os botões de enviar e limpar*/
+form [type="submit"], form [type="reset"] {
+	height: 50px;
+	width: 100px;
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	border:none;
+	margin-left: 25%;
+	}
+
+		/*personalizando a área onde é inserida as informações*/
+input {
+	padding: 13px;
+	border-radius: 20px;
+	background-color: black;
+	color: white;
+	border: none;
+	}
+	
+textarea {
+	resize: none;
+	border-radius: 10px;
+	padding: 15px;
+	font-size: 15px;
+	}
+
+	/*estilizando página de certificação de envio*/
+.parabens {
+	margin-top: 5%;
+	font-family: Open Sans;
+	font-size: 50px;
+	margin-left: 3%;
+	}
+	
+.aviso {
+	margin-top: 3%;
+	margin-left: 4%;
+	margin-right: 59%;
+	font-family: Open Sans;
+	text-align: justify;
+	}
+	
+.setaVoltar img {
+	width: 70px;
+	height: 70px;
+	margin-top: 21%;
+	margin-left: 20%;
+	}
+
+
+
+	

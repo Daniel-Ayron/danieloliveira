@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contato: Fale com a gente!</title>
+		<meta charset="UTF-8">
+		<link rel="icon" type="image/png" href="imgBea/icone4.png">
+		<link rel="stylesheet" type="text/css" href="estilizadorB.css">
+		<script language="javascript" type="text/javascript">
+		function validar(){
+			var nome = contato.nome.value;
+			var email = contato.email.value;
+			var telefone = contato.telefone.value;
+			var cidade = contato.cidade.value;
+           
+		
+			
+			if(nome ==""){
+				alert('Por favor, preencha corretamente com seu nome!');
+				contato.nome.focus();
+			return false;
+			}
+
+            if(email ==""){
+				alert('Por favor, preencha corretamente com seu email!');
+				contato.email.focus();
+			return false;
+			}
+
+			
+			if(telefone =="") {
+				alert('Por favor, preencha corretamente com seu telefone!');
+				contato.telefone.focus();
+			return false;
+			}
+			
+            if(cidade =="") {
+				alert('Por favor, preencha corretamente com o nome do seu município!');
+				contato.cidade.focus();
+			return false;
+			} 
+			
+		}
+	</script>
+	</head>
+	
+		<body class="fundoC">
+    <div class="menu" align="right">
+	    <ul>
+            <li><a href="index.html"><button>Início</button>  </a></li>
+            <li><a href="historia.html" > <button>História</button> </a></li>
+            <li><a href="albuns.html"> <button>Músicas</button>   </a></li>
+            <li><a href="galeria.html"> <button>Galeria</button> </a></li>
+			<li><a href="contatoB.html"> <button>Contato</button> </a></li>
+        </ul> 
+	</div>	
+		
+	<div class="textoContato">
+		Fale conosco!
+		<p> Preencha corretamente todos os campos abaixo. </p>
+	</div>
+		
+	<br><br>
+		
+			<form name="contato" action="avisoB.html" method="post">
+	<br><br>
+	
+			<div class="formularios">
+				Nome: <input type="text" name="nome" placeholder="Daniel Oliveira"><br><br>
+				Email: <input type="text" name="email" placeholder="Daniel.oliveira@gmail.com"><br><br>
+				Telefone: <input type="text" name="telefone" placeholder="(19) 98934-5675"><br><br>
+                Cidade: <input type="text" name="cidade" placeholder="Hortolândia"><br><br>
+						
+	
+				Nos fale alguma dúvida, observação etc. (opcional)<br> <textarea cols="30" rows="9" name="obs" placeholder=" &nbsp;Escreva aqui"></textarea>
+			</div>
+	<br>
+			<input type="submit" onclick="return validar()" value="Enviar">
+			<input type="reset" name="limpa" value="Limpar">
+			</form> <br>
+	
+			<hr color="white">
+			
+			<div class="seta">
+				<a href="#"><img src="imgBea/seta2.png" width="60" height="60"></a>
+			</div>
+			
+			<div class="rodapeA">
+				<font color="white"><h5>Daniel Oliveira &copyTodos os direitos reservados</h5></font>
+			</div>
+	
+		</body>
+</html>
